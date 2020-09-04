@@ -13,8 +13,6 @@ x64
 git version 2.25.1
 git user name
 jadorks
-git user email
-adorkorj@gmail.com
 node version
 v12.18.3
 npm version
