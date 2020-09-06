@@ -100,3 +100,10 @@ a:hover{
     color: #0088a9;
 }
 
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
