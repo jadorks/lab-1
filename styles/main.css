@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@500&display=swap');
+
 * {
     box-sizing: border-box;
     /* margin: 0; */
@@ -10,7 +12,7 @@ body{
 
 
 li, a{
-    font-family: monospace;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: #edf0f1;
@@ -29,8 +31,13 @@ li, a{
     flex: 50%;
 }
 
-p, h1, h2{
-    font-family: monospace;
+h1, h2{
+    font-family: 'Lato', sans-serif;
+    color: #edf0f1;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
     color: #edf0f1;
 }
 
@@ -41,7 +48,7 @@ table{
 
 table, th, td{
     border: 1px solid #edf0f1;
-    font-family: monospace;
+    font-family: 'Montserrat', sans-serif;
     color: #edf0f1;
 }
 
@@ -61,8 +68,12 @@ header{
 }
 
 footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     text-align: center;
-    padding: 3px;
+    /* padding: 3px; */
     background-color:#19191d;
     color: #edf0f1;
 }
